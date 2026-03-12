@@ -1,5 +1,12 @@
 # RoadC Playground
 
+[![CI](https://github.com/blackboxprogramming/roadc-playground/actions/workflows/ci.yml/badge.svg)](https://github.com/blackboxprogramming/roadc-playground/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg)](https://fastapi.tiangolo.com)
+[![Web IDE](https://img.shields.io/badge/web-IDE-FF6B2B.svg)](https://blackroad.io)
+
+
+
 Interactive browser-based REPL for the [RoadC programming language](https://github.com/blackboxprogramming/roadc). Write, run, and experiment with RoadC code directly in your browser.
 
 ## Features
