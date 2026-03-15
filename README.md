@@ -1,62 +1,41 @@
-# RoadC Playground
+<div align="center">
 
-[![CI](https://github.com/blackboxprogramming/roadc-playground/actions/workflows/ci.yml/badge.svg)](https://github.com/blackboxprogramming/roadc-playground/actions/workflows/ci.yml)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg)](https://fastapi.tiangolo.com)
-[![Web IDE](https://img.shields.io/badge/web-IDE-FF6B2B.svg)](https://blackroad.io)
+<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
 
+# roadc-playground
 
+**RoadC Playground — Interactive web REPL for the RoadC programming language. Live code editor, 7 built-in examples, syntax highlighting. FastAPI backend + browser UI.**
 
-Interactive browser-based REPL for the [RoadC programming language](https://github.com/blackboxprogramming/roadc). Write, run, and experiment with RoadC code directly in your browser.
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
+[![License](https://img.shields.io/badge/License-Proprietary-FF6B2B?style=for-the-badge&labelColor=000000)](./LICENSE)
+[![Edge AI](https://img.shields.io/badge/Edge_AI-52_TOPS-00D4FF?style=for-the-badge&labelColor=000000)](https://github.com/BlackRoad-OS-Inc)
 
-## Features
+</div>
 
-- Split-pane code editor with output panel
-- 7 built-in examples (Hello World, Fibonacci, Factorial, FizzBuzz, Lists, Closures, Functions)
-- Ctrl+Enter to run, Tab for indentation
-- Execution timing
-- BlackRoad-branded UI
+<div align="center">
+<sub>Part of the <a href="https://blackroad.io">BlackRoad OS</a> ecosystem — sovereign edge AI infrastructure</sub>
+</div>
 
-## RoadC Language
+---
 
-```
-fun fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
+## Overview
 
-let i = 0
-while i <= 12:
-    print(fibonacci(i))
-    i = i + 1
-```
+RoadC Playground — Interactive web REPL for the RoadC programming language. Live code editor, 7 built-in examples, syntax highlighting. FastAPI backend + browser UI.
 
-## API
+## License
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/` | GET | Code editor UI |
-| `/health` | GET | Service status |
-| `/examples` | GET | Built-in code examples |
-| `/run` | POST | Execute RoadC code (`{"code": "..."}`) |
+**Proprietary** — Copyright © 2024–2026 [BlackRoad OS, Inc.](https://blackroad.io) All rights reserved.
 
-## Run
+Founder & CEO: **Alexa Louise Amundson** · Delaware C-Corp
 
-```bash
-pip install -r requirements.txt
-python server.py  # http://localhost:8400
-```
+See [LICENSE](./LICENSE) for full terms.
 
-## Test
+---
 
-```bash
-pip install pytest httpx
-pytest tests/
-```
+<div align="center">
 
-## Related Projects
+**BlackRoad OS — Pave Tomorrow.**
 
-| Project | Description |
-|---------|-------------|
-| [RoadC](https://github.com/blackboxprogramming/roadc) | The RoadC programming language |
-| [Universal Computer](https://github.com/blackboxprogramming/universal-computer) | Turing machine simulator |
+[blackroad.io](https://blackroad.io) · [GitHub](https://github.com/BlackRoad-OS-Inc) · [Brand](https://brand.blackroad.io)
+
+</div>
