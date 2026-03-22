@@ -1,41 +1,66 @@
-<div align="center">
+# RoadC Playground
 
-<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
+Browser-based REPL for the RoadC programming language. Write code, run it, see output — no install needed.
 
-# roadc-playground
+## What It Does
 
-**RoadC Playground — Interactive web REPL for the RoadC programming language. Live code editor, 7 built-in examples, syntax highlighting. FastAPI backend + browser UI.**
+An interactive web editor where you write RoadC code and execute it instantly. Syntax highlighting, 7 built-in examples (one per sentence pattern), and clear error messages.
 
-[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
-[![License](https://img.shields.io/badge/License-Proprietary-FF6B2B?style=for-the-badge&labelColor=000000)](./LICENSE)
-[![Edge AI](https://img.shields.io/badge/Edge_AI-52_TOPS-00D4FF?style=for-the-badge&labelColor=000000)](https://github.com/BlackRoad-OS-Inc)
+## Features
 
-</div>
+- **Live editor** — write RoadC with syntax highlighting
+- **Instant execution** — run in your browser, see output immediately
+- **7 examples** — one for each English sentence pattern (SV through SVOC)
+- **Error feedback** — clear messages when something goes wrong
+- **No install** — runs entirely in the browser
 
-<div align="center">
-<sub>Part of the <a href="https://blackroad.io">BlackRoad OS</a> ecosystem — sovereign edge AI infrastructure</sub>
-</div>
+## Built-in Examples
 
----
+| # | Pattern | Demonstrates |
+|---|---------|-------------|
+| 1 | SV | Basic output (`show "hello"`) |
+| 2 | SVC | Variables and assignment |
+| 3 | SVA | Adverbial operations |
+| 4 | SVO | Object manipulation |
+| 5 | SVOO | Dual-object operations |
+| 6 | SVOA | Object-adverbial patterns |
+| 7 | SVOC | Object-complement transforms |
 
-## Overview
+## Stack
 
-RoadC Playground — Interactive web REPL for the RoadC programming language. Live code editor, 7 built-in examples, syntax highlighting. FastAPI backend + browser UI.
+- **Frontend**: HTML/CSS/JS with CodeMirror editor
+- **Backend**: FastAPI (Python)
+- **Execution**: RoadC interpreter in a sandboxed environment
+- **Highlighting**: Custom RoadC grammar definition
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+python server.py
+# Open http://localhost:8000
+```
+
+## Deploy
+
+```bash
+npm install
+npm run deploy     # Deploy to production
+```
+
+## How It Works
+
+1. You write RoadC code in the browser editor
+2. Code is sent to the FastAPI backend
+3. The RoadC interpreter executes it in a sandbox
+4. Output streams back to the browser
+
+Pairs with [RoadC](https://github.com/BlackRoad-OS-Inc/roadc) — the language specification, compiler, and interpreter.
 
 ## License
 
-**Proprietary** — Copyright © 2024–2026 [BlackRoad OS, Inc.](https://blackroad.io) All rights reserved.
-
-Founder & CEO: **Alexa Louise Amundson** · Delaware C-Corp
-
-See [LICENSE](./LICENSE) for full terms.
+Proprietary. Copyright (c) 2024-2026 BlackRoad OS, Inc. All rights reserved.
 
 ---
 
-<div align="center">
-
-**BlackRoad OS — Pave Tomorrow.**
-
-[blackroad.io](https://blackroad.io) · [GitHub](https://github.com/BlackRoad-OS-Inc) · [Brand](https://brand.blackroad.io)
-
-</div>
+*Remember the Road. Pave Tomorrow.*
