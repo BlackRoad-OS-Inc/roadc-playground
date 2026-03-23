@@ -1,5 +1,13 @@
 # roadc-playground
 
+> RoadC Playground — Interactive web REPL for the RoadC programming language. Live code editor, 7 built-in examples, syntax highlighting. FastAPI backend + browser UI. (BlackRoad integration)
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
+# roadc-playground
+
 RoadC Playground — Interactive web REPL for the RoadC programming language. Live code editor, 7 built-in examples, syntax highlighting. FastAPI backend + browser UI. (BlackRoad integration)
 
 **BlackRoad-OS-Inc** — Corporate root — all IP and governance
